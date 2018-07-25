@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Leaderboard : MonoBehaviour {
-    const string databaseUrl = "https://skys-mobile-game.firebaseio.com/";
+    const string databaseUrl = "<Database Url>";
 
     private void Start() {
         FirebaseApp app = FirebaseApp.DefaultInstance;
